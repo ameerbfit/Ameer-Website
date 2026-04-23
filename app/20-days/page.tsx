@@ -106,7 +106,7 @@ export default function TwentyDaysFunnelPage() {
                 <Star key={i} className="w-5 h-5 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
-            <p className="text-gray-400">Trusted by 500+ clients</p>
+            <p className="text-gray-400">Trusted by 270+ clients</p>
           </div>
         </div>
       </section>
