@@ -74,7 +74,7 @@ export function TestimonialsSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {masterclassVideos.map((video, index) => (
               <div key={index} className="flex flex-col">
-                <div className="relative aspect-video rounded-lg overflow-hidden bg-black border border-gray-800 mb-4">
+                <div className="relative aspect-video rounded-lg overflow-hidden bg-black border-t-4 border-t-yellow-400 border border-gray-800 mb-4 hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300">
                   <iframe
                     src={video.url}
                     title={video.title}
@@ -83,7 +83,7 @@ export function TestimonialsSection() {
                     allowFullScreen
                   />
                 </div>
-                <h3 className="font-montserrat font-bold text-sm text-foreground">
+                <h3 className="font-montserrat font-bold text-white text-sm leading-snug">
                   {video.title}
                 </h3>
               </div>
