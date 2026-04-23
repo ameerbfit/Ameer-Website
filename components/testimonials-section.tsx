@@ -62,9 +62,9 @@ export function TestimonialsSection() {
         </div>
 
         {/* Muscle Masterclasses Section */}
-        <div className="bg-black rounded-lg p-12 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+        <div className="bg-black rounded-lg p-10 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="font-montserrat font-bold text-3xl text-white mb-2">
+            <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-400 mb-2 uppercase tracking-wide">
               Muscle Masterclasses
             </h2>
             <p className="text-lg text-gray-300">
