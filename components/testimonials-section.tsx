@@ -62,7 +62,7 @@ export function TestimonialsSection() {
         </div>
 
         {/* Muscle Masterclasses Section */}
-        <div className="bg-black rounded-lg p-10 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+        <div className="bg-black rounded-lg py-20 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-400 mb-2 uppercase tracking-wide">
               Muscle Masterclasses
@@ -74,7 +74,7 @@ export function TestimonialsSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {masterclassVideos.map((video, index) => (
               <div key={index} className="flex flex-col">
-                <div className="relative aspect-video rounded-lg overflow-hidden bg-black border-t-4 border-t-yellow-400 border border-gray-800 mb-4 hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300">
+                <div className="relative aspect-video rounded-2xl overflow-hidden bg-black border-t-4 border-t-yellow-400 border border-gray-800 mb-4 hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300">
                   <iframe
                     src={video.url}
                     title={video.title}
