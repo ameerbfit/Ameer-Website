@@ -4,23 +4,23 @@ import Link from "next/link"
 const coachingPrinciples = [
   {
     title: "Force & Leverage",
-    description: "Leverage biomechanics to maximize every rep. Better angles, stronger positions, faster gains."
+    description: "Joint angles determine everything. We engineer your positioning to maximize tension where it actually counts."
   },
   {
-    title: "Muscle Physiology",
-    description: "Your muscles respond to specific stimulus. We dial in tension, mechanical damage, and metabolic stress."
+    title: "Human Physiology",
+    description: "Your nervous system, muscles, and joints operate as one. We train the whole system, built to last."
   },
   {
     title: "Execution > Theory",
-    description: "Perfect form beats a heavier weight every time. We fix movement first, then add load."
+    description: "Wrong pattern, wrong results. We lock in movement quality first and let the weight follow."
   },
   {
     title: "Nutrition, Engineered",
-    description: "Numbers on a scale don't tell the whole story. We optimize for your body composition goals."
+    description: "We build a nutrition strategy around your life, not a meal plan you'll abandon in two weeks."
   },
   {
     title: "Data-Driven Decisions",
-    description: "Track what matters. Adjust based on results. Your program evolves as your body does."
+    description: "Feelings lie, data doesn't. We track what actually predicts progress and adjust as your body responds."
   }
 ]
 
@@ -45,16 +45,19 @@ export function TestimonialsSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Engineering the Body Section */}
         <div className="mb-20 py-20">
-          <div className="text-center mb-16">
-            <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-300 mb-4 uppercase tracking-wide drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
-              Engineering the Body
-            </h2>
-            <p className="text-lg text-gray-300 mb-4">
-              Applied physics, physiology, and data built into your training.
-            </p>
-            <p className="text-base text-gray-400 max-w-2xl mx-auto">
-              Most coaches give you a program. I build a system based on how your body actually works.
-            </p>
+          {/* Header Card Container */}
+          <div className="bg-black rounded-lg p-8 md:p-12 mb-12 border border-gray-800">
+            <div className="text-center">
+              <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-300 mb-4 uppercase tracking-wide drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
+                Engineering the Body
+              </h2>
+              <p className="text-lg text-gray-300 mb-4">
+                Applied physics, physiology, and data built into your training.
+              </p>
+              <p className="text-base text-gray-400 max-w-2xl mx-auto">
+                Most coaches give you a program. I build a system based on how your body actually works.
+              </p>
+            </div>
           </div>
           
           {/* Asymmetric Grid Layout */}
