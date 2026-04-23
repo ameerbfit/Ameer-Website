@@ -20,6 +20,21 @@ const coachingPrinciples = [
   }
 ]
 
+const masterclassVideos = [
+  {
+    title: "BICEPS MASTERCLASS: Engineer Breakdown",
+    url: "https://www.youtube.com/embed/CPQprpryOaQ?rel=0"
+  },
+  {
+    title: "LATS MASTERCLASS: Advanced Muscle Growth Guide",
+    url: "https://www.youtube.com/embed/oK6TY1143EI?rel=0"
+  },
+  {
+    title: "HAMSTRINGS MASTERCLASS: Advanced Muscle Growth Guide",
+    url: "https://www.youtube.com/embed/C-ylviVmKWE?rel=0"
+  }
+]
+
 export function TestimonialsSection() {
   return (
     <section id="my-approach" className="py-20 bg-background">
@@ -56,14 +71,23 @@ export function TestimonialsSection() {
               Free education to help you train smarter
             </p>
           </div>
-          <div className="relative aspect-video rounded-lg overflow-hidden bg-black border border-gray-800">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PL7j7H9HtGrPIu3DnmYyVvjOBK01lQUlM8&rel=0"
-              title="Muscle Masterclasses Playlist"
-              className="absolute inset-0 w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {masterclassVideos.map((video, index) => (
+              <div key={index} className="flex flex-col">
+                <div className="relative aspect-video rounded-lg overflow-hidden bg-black border border-gray-800 mb-4">
+                  <iframe
+                    src={video.url}
+                    title={video.title}
+                    className="absolute inset-0 w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <h3 className="font-montserrat font-bold text-sm text-foreground">
+                  {video.title}
+                </h3>
+              </div>
+            ))}
           </div>
         </div>
 
