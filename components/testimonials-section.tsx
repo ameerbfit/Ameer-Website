@@ -3,20 +3,24 @@ import Link from "next/link"
 
 const coachingPrinciples = [
   {
-    title: "Science over bro-science",
-    description: "Every program is built on peer-reviewed principles, not gym folklore."
+    title: "Force & Leverage",
+    description: "Leverage biomechanics to maximize every rep. Better angles, stronger positions, faster gains."
   },
   {
-    title: "Specificity first",
-    description: "Your training is designed around your body, schedule, and goals, not a template."
+    title: "Muscle Physiology",
+    description: "Your muscles respond to specific stimulus. We dial in tension, mechanical damage, and metabolic stress."
   },
   {
-    title: "Sustainable over extreme",
-    description: "Crash diets and brutal cuts create rebound. I build habits that last."
+    title: "Execution > Theory",
+    description: "Perfect form beats a heavier weight every time. We fix movement first, then add load."
   },
   {
-    title: "Technique is the shortcut",
-    description: "Most people plateau because of form, not effort. We fix the root cause."
+    title: "Nutrition, Engineered",
+    description: "Numbers on a scale don't tell the whole story. We optimize for your body composition goals."
+  },
+  {
+    title: "Data-Driven Decisions",
+    description: "Track what matters. Adjust based on results. Your program evolves as your body does."
   }
 ]
 
@@ -39,21 +43,49 @@ export function TestimonialsSection() {
   return (
     <section id="my-approach" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* How I Coach Section */}
-        <div className="mb-20">
-          <h2 className="font-montserrat font-bold text-3xl text-center text-foreground mb-12">
-            How I Coach
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {coachingPrinciples.map((principle, index) => (
+        {/* Engineering the Body Section */}
+        <div className="mb-20 py-20">
+          <div className="text-center mb-16">
+            <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-400 mb-4 uppercase tracking-wide">
+              Engineering the Body
+            </h2>
+            <p className="text-lg text-gray-300 mb-4">
+              Applied physics, physiology, and data built into your training.
+            </p>
+            <p className="text-base text-gray-400 max-w-2xl mx-auto">
+              Most coaches give you a program. I build a system based on how your body actually works.
+            </p>
+          </div>
+          
+          {/* Asymmetric Grid Layout */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Top 3 Cards */}
+            {coachingPrinciples.slice(0, 3).map((principle, index) => (
               <div
                 key={index}
-                className="bg-black p-8 rounded-lg border-l-4 border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all duration-300"
+                className="bg-black p-8 rounded-lg border-t-4 border-t-yellow-400 border border-gray-800 hover:shadow-lg hover:shadow-yellow-400/20 transition-all duration-300"
               >
-                <h3 className="font-montserrat font-bold text-lg text-white mb-3">
+                <h3 className="font-montserrat font-bold text-xl text-white mb-3">
                   {principle.title}
                 </h3>
-                <p className="text-gray-200 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed">
+                  {principle.description}
+                </p>
+              </div>
+            ))}
+          </div>
+          
+          {/* Bottom 2 Cards - Centered */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:max-w-2xl md:mx-auto mt-6">
+            {coachingPrinciples.slice(3, 5).map((principle, index) => (
+              <div
+                key={index + 3}
+                className="bg-black p-8 rounded-lg border-t-4 border-t-yellow-400 border border-gray-800 hover:shadow-lg hover:shadow-yellow-400/20 transition-all duration-300"
+              >
+                <h3 className="font-montserrat font-bold text-xl text-white mb-3">
+                  {principle.title}
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
                   {principle.description}
                 </p>
               </div>
