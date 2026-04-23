@@ -48,7 +48,7 @@ export function TestimonialsSection() {
           {/* Header Card Container */}
           <div className="bg-black rounded-lg p-8 md:p-12 mb-12 border border-gray-800">
             <div className="text-center">
-              <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-300 mb-4 uppercase tracking-wide drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
+              <h2 className="font-montserrat font-black text-4xl md:text-5xl text-yellow-400 mb-4 uppercase tracking-wide">
                 Engineering the Body
               </h2>
               <p className="text-lg text-gray-300 mb-4">
