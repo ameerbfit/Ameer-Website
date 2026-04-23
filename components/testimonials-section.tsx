@@ -58,7 +58,7 @@ export function TestimonialsSection() {
           </div>
           <div className="relative aspect-video rounded-lg overflow-hidden bg-black border border-gray-800">
             <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PL7j7H9HtGrPIu3DnmYyVvjOBK01lQUlM8"
+              src="https://www.youtube.com/embed/videoseries?list=PL7j7H9HtGrPIu3DnmYyVvjOBK01lQUlM8&rel=0"
               title="Muscle Masterclasses Playlist"
               className="absolute inset-0 w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
