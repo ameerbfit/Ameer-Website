@@ -32,10 +32,10 @@ export function Header() {
               About
             </Link>
             <Link
-              href="#success-stories"
+              href="#my-approach"
               className="text-white hover:text-yellow-400 transition-colors font-medium text-lg"
             >
-              Success Stories
+              My Approach
             </Link>
             <Link
               href="#free-resources"
@@ -80,10 +80,10 @@ export function Header() {
                 About
               </Link>
               <Link
-                href="#success-stories"
+                href="#my-approach"
                 className="text-white hover:text-yellow-400 transition-colors font-medium text-lg px-4"
               >
-                Success Stories
+                My Approach
               </Link>
               <Link
                 href="#free-resources"

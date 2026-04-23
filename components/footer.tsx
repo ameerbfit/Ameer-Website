@@ -59,8 +59,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
-                  Success Stories
+                <a href="#my-approach" className="text-muted-foreground hover:text-primary transition-colors">
+                  My Approach
                 </a>
               </li>
               <li>
