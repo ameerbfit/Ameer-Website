@@ -34,7 +34,7 @@ export default function YouTubeLandingPage() {
                 <Star key={i} className="w-5 h-5 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
-            <span className="text-gray-400 text-sm">500+ Transformations</span>
+            <span className="text-gray-400 text-sm">270+ Transformations</span>
           </div>
 
           {/* Headline */}
@@ -81,7 +81,7 @@ export default function YouTubeLandingPage() {
 
           {/* Social Proof */}
           <div className="mt-16 text-center">
-            <p className="text-gray-400 mb-4">Trusted by 500+ clients worldwide</p>
+            <p className="text-gray-400 mb-4">Trusted by 270+ clients worldwide</p>
             <div className="flex flex-wrap justify-center gap-8 items-center opacity-50">
               <div className="text-2xl font-bold">RESULTS</div>
               <div className="text-2xl font-bold">PROVEN</div>

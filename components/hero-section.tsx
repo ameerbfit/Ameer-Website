@@ -30,7 +30,7 @@ export function HeroSection() {
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm text-gray-200">500+ Transformations</span>
+              <span className="text-sm text-gray-200">270+ Transformations</span>
             </div>
 
             <h1 className="font-montserrat font-black text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 text-white">
@@ -65,7 +65,7 @@ export function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-500">
               <div className="text-center">
-                <div className="text-2xl font-bold text-yellow-400">500+</div>
+                <div className="text-2xl font-bold text-yellow-400">270+</div>
                 <div className="text-sm text-gray-300">Clients Transformed</div>
               </div>
               <div className="text-center">
