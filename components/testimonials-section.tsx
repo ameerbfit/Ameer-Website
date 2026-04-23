@@ -41,7 +41,7 @@ const masterclassVideos = [
 
 export function TestimonialsSection() {
   return (
-    <section id="my-approach" className="py-20 bg-background">
+    <section id="my-approach" className="py-20 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Engineering the Body Section */}
         <div className="mb-20 py-20">
