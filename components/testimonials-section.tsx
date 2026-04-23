@@ -62,12 +62,12 @@ export function TestimonialsSection() {
         </div>
 
         {/* Muscle Masterclasses Section */}
-        <div>
+        <div className="bg-black rounded-lg p-12 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="font-montserrat font-bold text-3xl text-foreground mb-2">
+            <h2 className="font-montserrat font-bold text-3xl text-white mb-2">
               Muscle Masterclasses
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-gray-300">
               Free education to help you train smarter
             </p>
           </div>
