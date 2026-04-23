@@ -56,27 +56,14 @@ export function TestimonialsSection() {
               Free education to help you train smarter
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* First Video */}
-            <div className="relative aspect-video rounded-lg overflow-hidden bg-black">
-              <iframe
-                src="https://www.youtube.com/embed/PXUatSBHQQM"
-                title="Muscle Masterclass 1"
-                className="absolute inset-0 w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-            {/* Second Video */}
-            <div className="relative aspect-video rounded-lg overflow-hidden bg-black">
-              <iframe
-                src="https://www.youtube.com/embed/yakMNoy2PlY"
-                title="Muscle Masterclass 2"
-                className="absolute inset-0 w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+          <div className="relative aspect-video rounded-lg overflow-hidden bg-black border border-gray-800">
+            <iframe
+              src="https://www.youtube.com/embed/videoseries?list=PL7j7H9HtGrPIu3DnmYyVvjOBK01lQUlM8"
+              title="Muscle Masterclasses Playlist"
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
 
