@@ -46,7 +46,7 @@ export function TestimonialsSection() {
         {/* Engineering the Body Section */}
         <div className="mb-20 py-20">
           <div className="text-center mb-16">
-            <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-400 mb-4 uppercase tracking-wide">
+            <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-yellow-300 mb-4 uppercase tracking-wide drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
               Engineering the Body
             </h2>
             <p className="text-lg text-gray-300 mb-4">
