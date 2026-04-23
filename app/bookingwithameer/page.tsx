@@ -24,7 +24,7 @@ export default function BookingWithAmeerPage() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="relative aspect-video">
                 <iframe
-                  src="https://www.youtube.com/embed/yakWWoyzPlY"
+                  src="https://www.youtube.com/embed/PXUatSBHQDM"
                   title="AB Coaching Introduction Video"
                   className="absolute inset-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
