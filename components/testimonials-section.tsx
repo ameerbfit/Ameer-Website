@@ -33,12 +33,12 @@ export function TestimonialsSection() {
             {coachingPrinciples.map((principle, index) => (
               <div
                 key={index}
-                className="bg-muted p-6 rounded-lg border border-border hover:border-primary transition-colors duration-300"
+                className="bg-black p-8 rounded-lg border-l-4 border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all duration-300"
               >
-                <h3 className="font-montserrat font-bold text-lg text-foreground mb-3">
+                <h3 className="font-montserrat font-bold text-lg text-white mb-3">
                   {principle.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-gray-200 leading-relaxed">
                   {principle.description}
                 </p>
               </div>
