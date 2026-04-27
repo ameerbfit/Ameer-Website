@@ -20,7 +20,10 @@ export const metadata = {
   title: "Ameer B. Fit - Fitness Engineered For You",
   description:
     "Transform your body and mind with personalized fitness coaching, nutrition guidance, and 24/7 support from certified trainer Ameer.",
-    generator: 'v0.app'
+  generator: 'v0.app',
+  other: {
+    "facebook-domain-verification": "1cpgyn8wh6x2sei8de7hw2qbzg00gs"
+  }
 }
 
 export default function RootLayout({
